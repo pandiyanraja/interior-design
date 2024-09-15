@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="homepg" id="home">
+        <div class="navbar">
+            <div class="logo">INTERIOR</div>
+            <nav class="navbar-items h-class">
+                <ul class="pagrs">
+                    <li><a href="new.html">HOME</a></li>
+                    <li><a href="design.html">DESIGNS</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><i class='bx bxs-user'></i><a href="login.html">LOGIN</a></li>
+                    <li><a href="test.html">Sign up</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="burger">&#9776</div>
+        </div>
+        <div class="content">
+            <h1 class="heading"> LUXURIOUS<span>CREAT AND<br>COMPORTABLE</span> INTERIOR</h1>
+            <p class="para">resposible for the layout of the interior space in a buliding or strcture <br>the design impact on the wellbeing,safety andf
+             function of the interior.</p>
+             <button class="btn"><a href="register.html"> Register</a></button>
+        </div>
+    </section>
+    <section class="icons-col">
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+    <section class="sec" id="ABOUT">
+        <h1 class="heading"> About Us</h1>
+        <div class="sub_heading">
+        <h1 class="heading">providing<span>everything you need</span> Best creative solution for your space</h1>
+        <!--<p >DesignCafe was founded by award-winning architects, Shezaan Bhojani & Gita Ramanan, who bring together more than two decades of national and international design experience<br>
+            DesignCafe has designed more than 10000 homes across the country. DC’s homes have been featured in over 30 design publications across the world.  The next one could be yours. 🙂
+        --></p>
+        <div class="box">
+            <div class="A_box">
+            <h1>interior design you don't have to imagine</h1>
+            <p>DesignCafe is expanding across the country and is poised to become the most recognised and trusted brand for home interiors in India.
+            </p>
+            <button class="btn btn1">More Deatails</button>
+        </div>
+        <img src="istockphoto-2037012346-1024x1024.jpg" alt="">
+    </div>
+
+    </section>
+    <section class="sec" id="services">
+        <h1 class="heading"> help you transform your <br><span>space into fresh</span> one</h1>
+        
+        <div class="services_box">
+            <div class="boxes">
+                <button  onclick="raja()">next &#8594</button>
+                <img src="soho-house-sao-paulo_dezeen_sq1-411x411.webp" alt="image" height="350px" width="350px" id="image">
+                <h1>interior design</h1>
+                <p>Work with our expert virtual interior designers to design & shop your room online. It’s never been easier or more fun to design your happy space.
+                </p>
+
+                <a href="">learn more</a>
+            </div>
+            <div class="boxes">
+                <button  onclick="raja1()">next &#8594</button>
+                <img src="transitional-living-room2 (1).jpg" alt="image" height="350px" width="350px" id="image1">
+                <h1>interior styling</h1>
+                <p>Work with our expert virtual interior designers to design & shop your room online. It’s never been easier or more fun to design your happy space.
+                </p>
+                <a href="">learn more</a>
+            </div>
+            <div class="boxes">
+                <button  onclick="raja2()">next &#8594</button>
+                <img src="japandi-rustic-bedroom2.jpg" alt="image" height="350px" width="350px" id="image2">
+                <h1>interior Architecture</h1>
+                <p>Work with our expert virtual interior designers to design & shop your room online. It’s never been easier or more fun to design your happy space.
+                </p>
+                <a href="">learn more</a>
+            
+            </div>
+        </div>
+        <script>
+            function raja(){
+                var image=document.querySelector('#image');
+                var images=['dining-room-with-table-chairs-plant-pot_1173748-742.jpg','/minimalist-home-office-in-bedroom.jpg','/images (2).jpeg'];
+                var random=Math.floor(Math.random()*3);
+                image.src=images[random];
+            }
+                function raja1(){
+                var image1=document.querySelector('#image1');
+                var images1=['dining2x.jpg','/balcony-design-with-cosy-work-station.jpg' ,'/best-interior-designers-in-mumbai.jpg']
+                var random=Math.floor(Math.random()*3);
+                image1.src=images1[random];
+                }
+                function raja2(){
+                var image2=document.querySelector('#image2');
+                var images2=['elegant-living-room-design-with-cosy-sofa-in-1bhk-apartment-design.jpg','/spacious-1-bhk-home-design-with-neutral-tones-and-minimal-furniture.jpg','/interior-design-cost-in-bangalore.jpg']
+                var random=Math.floor(Math.random()*3);
+                image2.src=images2[random];
+            }
+          
+
+
+        </script>
+        <div class="c">
+            <h1>PROFESSIONAL HOME INTERIOR DESIGN COMPANY</h1>
+        </div>
+        <marquee behavior="scroll" direction="left">
+        <div class="ra">
+        <div class="dot">
+        <div class="l">
+        <h3>SINCE</h3>
+            <h2>2004</h2>
+            </div>
+        </div>
+        <div class="dot1">
+            <div class="l1">
+            <h3>PREMIUM</h3>
+            <h2>materials</h2>
+            </div>
+        </div>
+        <div class="dot2">
+            <div class="l2">
+            <h3>10 YEARS</h3>
+            <h2>warranty</h2>
+        </div>
+        </div>
+        <div class="dot3">
+            <div class="l3">
+            <h3>COMPLETION</h3>
+            <h2>40 working<br> days</h2>
+        </div>
+        </div>
+        <div class="dot4">
+            <div class="l4">
+            <h3>PROJECTS</h3>
+            <h2>400 per<br> month</h2>
+        </div>
+    </div>
+    
+        <div class="dot5">
+            <div class="l5">
+            <h3>LIFE LONG</h3>
+            <h2>service<br> support</h2>
+        </marquee>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="f-box">
+                <h2>learn about us</h2>
+                <li>about us</li>
+                <li>contact us</li>
+                <li>privacy policy</li>
+                <li>terms & condition</li>
+            </div>
+            <div class="f-box">
+                <h2>contact</h2>
+                <li>abcder345@gmail.com</li>
+                <li>+78954433637</li>
+                <li>garden toen lahore</li>
+                <li>24/7 support</li>
+            </div>
+            <div class="f-box">
+                <h2>stay updated</h2>
+                <li>email</li>
+                <li>address</li>
+                <li>all categories</li>
+            </div>
+            <div class="f-box">
+                <h2>account</h2>
+                <li>sign in</li>
+                <li>login</li>
+                <li>create account</li>
+                <li>24/7 support</li>
+            </div>
+        </div>
+    </section>
+    <footer>copyright @ 2023 created by a Raju</footer>
+    <script src="index.js"></script>
+</body>
+</html>

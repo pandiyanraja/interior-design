@@ -1,0 +1,574 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+}
+body{
+    font-family: "playwrite DE Grund", cursive;
+
+}
+.btn a{
+    text-decoration: none;
+    
+}
+.pagrs{
+    color: white;
+    
+
+}
+.pagrs :hover{
+color: #E5AA70;
+background-color: transparent;
+transition: 1s;
+cursor: pointer;
+ 
+}
+
+.homepg{
+    height: 100vh;
+    width: 100%;
+    background: url(Living-Room-Design-interior-design-service.webp);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    color: #fff;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo::first-letter{
+    color: #E5AA79;
+    font-size: 33px;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    position: fixed;
+    padding: 1% 2%;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    z-index: 1;
+    top: 0;
+}
+.navbar-items{
+    flex: 1;
+    text-align: right;
+    margin-top: 12px;
+}
+.navbar-items ul{
+    padding-right: 20px;
+}
+.navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar-items ul li a{
+    color: #E5AA79;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.navbar-items ul li a:hover{
+    color:gold;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.burger{
+    display: none;
+}
+/*___________________CONTENT */
+ .content{
+      width: 80%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      color: #fff;
+}
+.heading{
+
+    font-size: 40px;
+    font-family: 'mulish'sans-serif;
+}
+.heading span{
+    color:#E5AA70;
+}
+.para{
+    font-size: 30px;
+    padding: 16px 0;
+
+
+}
+.btn{
+    text-decoration: none;
+    
+    border: 18px 15px;
+    font-size: 20px;
+    background-color: #E5AA70;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #E5AA70;
+    background-color: transparent;
+    transition: 1s;
+}
+.navbar.scrolled{
+    background-color: #181818;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.icons-col{
+    top: 200px;
+    left: 0%;
+    width: 76px;
+    position: fixed;
+    z-index: 2;
+}
+.icons {
+   display: flex;
+   flex-direction: column;
+   padding: 13% 16%;
+   z-index: 1;
+   position: absolute;
+   background-color: #E5AA70;
+}
+.icons i{
+    font-size: 26px;
+    padding: 20% 0;
+    color: #000;
+}
+.icons i:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.sec{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 6% 0 3% 0;
+    align-items: center;
+
+}
+
+.sub_heading{
+display: flex;
+display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 3% 0;
+
+    
+}
+.sub_heading h1, .sub_heading p{
+    width: 50%;
+}
+.box{
+    position: relative;
+}
+.A_box{
+    background-color: #E5AA70;
+    padding: 2%;
+    width: 40%;
+    position: absolute;
+    top: 5em;
+}
+.A_box p{
+    font-size: 11px;
+    padding: 2% 0;
+}
+.btn1{
+    border: 2px solid black;
+}
+.btn1 :hover{
+    color: #000;
+}
+.services_box{
+    display: flex;
+    padding-top: 5%;
+
+}
+.boxes{
+    text-align: left;
+    margin: 0 1%;
+}
+.boxes{
+     width: 30%;
+
+}
+.boxes h1{
+    padding: 2% 0;
+}
+
+
+.boxes p{
+    font-size: 11px;
+    text-align: left;
+    padding: 2% 0;
+}
+.boxes a{
+    color:#E5AA70;
+}
+.boxes a:hover{
+    color:#999;
+    letter-spacing: 2px;
+}
+
+.c{
+    text-align: center;
+    padding: 50px;
+}
+.ra{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+}
+
+.dot{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid  #E5AA70;
+    align-items: 35px;
+    margin-left: 20%;
+    text-align: center;
+    font-family: Arial;
+    position: relative;
+    
+    
+}
+.dot1{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: 35px;
+    border: 2px solid  #E5AA70;
+    margin-left:17%;
+    text-align: center;
+    position: relative;
+}
+
+.dot2{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: 35px;
+    border: 2px solid  #E5AA70;
+    margin-left: 13%;
+    text-align: center;
+    position: relative;
+}
+
+.dot3{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: 35px;
+    border: 2px solid  #E5AA70;
+    margin-left: 9%;
+    text-align: center;
+    position: relative;
+}
+
+.dot4{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: 35px;
+    border: 2px solid  #E5AA70;
+    margin-left:4%;
+    text-align: center;
+    position: relative;
+}
+
+.dot5{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: 35px;
+    border: 2px solid #E5AA70;
+    margin-left: -1%;
+    text-align: center;
+    position: relative;
+}
+
+.l{
+    margin-top: 40px;
+    margin-left: 5px;
+} 
+.l1{
+
+    margin-top: 40px;
+    margin-left: 5px;
+} 
+.l2{
+    margin-top: 40px;
+    margin-left: 5px;
+} 
+.l3{
+    margin-top: 40px;
+    margin-left: 5px;
+} 
+.l4{
+    margin-top: 40px;
+    margin-left: 5px;
+}   
+
+.l5{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.footer{
+    padding: 5% 1%;
+    display: flex;
+    justify-content: center;
+    background-color:#565656;
+    color: #fff;
+}
+.f-box{
+    flex-basis: 21%;
+}
+.f-box li{
+    list-style: none;
+    padding: 7px 0;
+    color: #fff;
+}
+.f-box h2{
+    color: #E5AA70;
+    padding-bottom: 12px;
+}
+footer{
+    text-align: center;
+    background-color: #313030;
+    color: #fff;
+    padding: 10px 0;
+} 
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-items {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .navbar-items ul {
+        padding-right: 0;
+    }
+
+    .navbar-items ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .navbar-items ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .content {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .icons {
+        padding: 10% 5%;
+    }
+
+    .icons i {
+        font-size: 20px;
+        padding: 15% 0;
+    }
+
+    .services_box {
+        flex-direction: column;
+    }
+
+    .boxes {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        padding: 1% 5%;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .btn {
+        padding: 12px 24px;
+    }
+
+    .icons {
+        padding: 10% 10%;
+    }
+
+    .icons i {
+        font-size: 22px;
+        padding: 18% 0;
+    }
+
+    .services_box {
+        flex-wrap: wrap;
+    }
+
+    .boxes {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    .navbar {
+        padding: 1% 2%;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .icons {
+        padding: 13% 16%;
+    }
+
+    .icons i {
+        font-size: 26px;
+        padding: 20% 0;
+    }
+
+    .services_box {
+        flex-wrap: nowrap;
+    }
+
+    .boxes {
+        width: 30%;
+        margin: 0 1%;
+    }
+}
+.pagrs {
+    color: white;
+}
+
+.pagrs:hover {
+    color: #E5AA70;
+    background-color: transparent;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    cursor: pointer;
+}
+
+.homepg {
+    height: 100vh;
+    width: 100%;
+    background: url(Living-Room-Design-interior-design-service.webp) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    color: #fff;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo::first-letter {
+    color: #E5AA79;
+    font-size: 33px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .pagrs {
+        font-size: 14px; 
+        margin-left: 4%;
+    }
+
+    .homepg {
+        background-position: center center; 
+    }
+
+    .logo {
+        font-size: 24px; 
+        margin-left: 2%; 
+    }
+
+    .logo::first-letter {
+        font-size: 27px; 
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) {
+    .pagrs {
+        font-size: 18px; 
+        margin-left: 4%;
+    }
+
+    .homepg {
+        background-position: center center; 
+    }
+
+    .logo {
+        font-size: 30px; 
+        margin-left: 4%; 
+    }
+
+    .logo::first-letter {
+        font-size: 33px; 
+    }
+}
+@media (max-width: 480px) {
+    .f-box {
+        flex-basis: 100%; 
+        margin: 10px 0; 
+    }
+
+    .footer {
+        padding: 5% 4%; 
+    }
+
+    .f-box h2 {
+        font-size: 1.2rem; 
+    }
+
+    .f-box li {
+        font-size: 0.9rem; 
+    }
+}

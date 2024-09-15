@@ -1,0 +1,396 @@
+
+*{
+    text-decoration: none;
+
+}
+
+.a{
+    position: relative;
+    top: 80px; 
+    margin-left: 40px;
+}
+.a1{
+    
+    margin-left: 150px;
+    
+}
+.a3{
+    margin-top: 120px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.a4{
+    width: 150px;
+    height: 70px;
+    margin-left:400px;
+    font-size: x-large;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.a4:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    
+}
+.a4{
+    text-decoration: none;
+}
+.c3{
+    text-decoration: none;
+}
+.d3{
+    text-decoration: none;
+}
+.e3{
+    text-decoration: none;
+}
+.f3{
+    text-decoration: none;
+}
+.c{
+
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.c1{
+    
+    margin-left: 150px;
+}
+
+.c2{
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.c3{
+    width: 150px;
+    height: 70px;
+    margin-left: 400px;
+    font-size: x-large;
+    background-color: aqua;
+}
+.d{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.d1{
+    margin-left: 150px;
+
+}
+.d2{
+    
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.d3{
+    width: 150px;
+    height: 70px;
+    margin-left: 400px;
+    font-size: x-large;
+    background-color: aqua;
+}
+.e{
+    
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.e1{
+    margin-left: 150px;
+
+}
+.e2{
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.e3{
+    width: 150px;
+    height: 70px;
+    margin-left: 400px;
+    font-size: x-large;
+    background-color: aqua;
+}
+
+.f{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.f1{
+    margin-left: 110px;
+}
+.f2{
+    
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.f3{
+    width: 150px;
+    height: 70px;
+    margin-left: 400px;
+    font-size: x-large;
+    background-color: aqua;
+}
+
+footer{
+    background-color: #565656;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 1px 0;
+    justify-content: center;
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    align-items: center;
+    
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+
+    padding: 1px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    color: white;
+}
+
+.logo{
+    color:black;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo::first-letter{
+    color: #E5AA79;
+    font-size: 33px;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    position: fixed;
+    padding: 1% 2%;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    z-index: 1;
+    top: 0;
+}
+.navbar-items{
+    flex: 1;
+    text-align: right;
+    margin-top: 12px;
+}
+.navbar-items ul{
+    padding-right: 20px;
+}
+.navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar-items ul li a{
+    color: #E5AA79;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.navbar-items ul li a:hover{
+    color:gold;
+    background-color: transparent;
+    transition: 1s;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+}
+
+.pagrs{
+    color:black;
+
+}
+.pagrs :hover{
+color: #E5AA70;
+background-color: transparent;
+transition: 1s;
+cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .a {
+        top: 40px; 
+        margin-left: 10px;
+    }
+    .a1 {
+        margin-left: 20px;
+    }
+    .a3 {
+        margin-top: 60px;
+        margin-left: 30px;
+        font-size: medium;
+    }
+    .a4 {
+        width: 100px;
+        height: 50px;
+        margin-left: 100px;
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .a {
+        top: 70px; 
+        margin-left: 30px;
+    }
+    .a1 {
+        margin-left: 100px;
+    }
+    .a3 {
+        margin-top: 100px;
+        margin-left: 120px;
+        font-size: large;
+    }
+    .a4 {
+        width: 140px;
+        height: 65px;
+        margin-left: 200px;
+        font-size: large;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) {
+    
+}
+@media only screen and (max-width: 600px) {
+    .c, .d, .e, .f {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .c1, .d1, .e1, .f1 {
+        margin-left: 20px;
+    }
+    .c2, .d2, .e2, .f2 {
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: medium;
+    }
+    .c3, .d3, .e3, .f3 {
+        width: 100px;
+        height: 50px;
+        margin-left: 100px;
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .c, .d, .e, .f {
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    .c1, .d1, .e1, .f1 {
+        margin-left: 100px;
+    }
+    .c2, .d2, .e2, .f2 {
+        margin-top: 40px;
+        margin-left: 120px;
+        font-size: large;
+    }
+    .c3, .d3, .e3, .f3 {
+        width: 140px;
+        height: 65px;
+        margin-left: 300px;
+        font-size: large;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) {
+    
+}
+@media only screen and (max-width: 600px) {
+    .footercontainer {
+        padding: 40px 20px 10px;
+    }
+    .socialicons a i {
+        font-size: 1.5em;
+    }
+    .footernav ul li a {
+        font-size: 1em;
+        margin: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .footercontainer {
+        padding: 60px 30px 20px;
+    }
+    .socialicons a i {
+        font-size: 2em;
+    }
+    .footernav ul li a {
+        font-size: 1.2em;
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) {
+    
+}
